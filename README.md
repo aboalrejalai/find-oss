@@ -1,6 +1,6 @@
 # find-oss
 
-[![skills.sh](https://skills.sh/b/aboalrejal-ai/find-oss)](https://skills.sh/aboalrejal-ai/find-oss)
+[![skills.sh](https://skills.sh/b/aboalrejalai/find-oss)](https://skills.sh/aboalrejalai/find-oss)
 
 **From need → vetted repo → working install → first success. Open-source only.**
 
@@ -19,7 +19,7 @@ GitHub — in Arabic and English. Plus three modes nobody else combines in one s
 ## Install
 
 ```bash
-npx skills add https://github.com/aboalrejal-ai/find-oss --skill find-oss
+npx skills add https://github.com/aboalrejalai/find-oss --skill find-oss
 ```
 
 Works with Claude Code, opencode, Codex CLI, Cursor, Copilot, Gemini CLI, and any agent that reads
