@@ -25,6 +25,22 @@ npx skills add https://github.com/aboalrejalai/find-oss --skill find-oss
 Works with Claude Code, opencode, Codex CLI, Cursor, Copilot, Gemini CLI, and any agent that reads
 `SKILL.md`. Add `-g` for a global install.
 
+## Updates
+
+find-oss is versionless: the skills CLI records a content hash of what you installed, so updating
+is one command — it re-fetches from the repo and replaces your copy only when the content changed:
+
+```bash
+npx skills update find-oss        # project scope
+npx skills update find-oss -g     # global scope
+```
+
+If the recorded source ever goes stale (for example after a repo rename), re-adding fixes it:
+
+```bash
+npx skills add https://github.com/aboalrejalai/find-oss --skill find-oss
+```
+
 ## Why it exists
 
 Free tools go unfound every day because people describe the job ("I keep losing things I copy"),
