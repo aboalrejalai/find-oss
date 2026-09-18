@@ -1,17 +1,18 @@
 ---
 name: find-oss
 description: >-
-  Finds, vets, installs, and teaches free open-source tools and AI-powered projects from GitHub —
-  plus three modes nobody else combines: a trending radar (daily/weekly/monthly OSS reports),
-  a paid-tool → open-source-alternative mapper, and a safe deep-dive protocol for inspecting any
-  repo before trusting it. Use this skill WHENEVER the user wants a tool but doesn't know which
-  one — "I need something to manage my clipboard", "is there a free alternative to Notion / Zapier /
-  Manus / ChatGPT", "find me an open source X", "what's trending on GitHub", "what's hot in open
-  source this week", "I pasted a GitHub URL — what is it and is it safe", "help me install this
-  repo", or when they only describe a problem ("I keep losing stuff I copy"). Trigger equally on
-  non-English phrasings of the same intents — for example Arabic requests for a free tool, a free
-  alternative, an install, or "what is trending" — even when no tool is named at all. The whole
-  point: need → vetted repo → working install → first success.
+  Finds, vets, installs, and teaches free open-source tools and self-hosted alternatives from
+  GitHub — plus three modes nobody else combines: a trending radar (daily/weekly/monthly reports
+  of hot open-source repositories), a paid-tool → open-source-alternative mapper for SaaS
+  replacements, and a safe deep-dive protocol for inspecting any repo before trusting it.
+  Use this skill WHENEVER the user wants a tool but doesn't know which one — "I need something to
+  manage my clipboard", "is there a free alternative to Notion / Zapier / Manus / ChatGPT",
+  "find me an open source X", "what's trending on GitHub", "what's hot in open source this week",
+  "I pasted a GitHub URL — what is it and is it safe", "help me install this repo", or when they
+  only describe a problem ("I keep losing stuff I copy"). Trigger equally on non-English
+  phrasings of the same intents — for example Arabic requests for a free tool, a free alternative,
+  an install, or "what is trending" — even when no tool is named at all. The whole point:
+  need → vetted repo → working install → first success.
 ---
 
 # find-oss — from need to a working open-source tool
