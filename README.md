@@ -1,5 +1,7 @@
 # find-oss
 
+[![skills.sh](https://skills.sh/b/aboalrejal-ai/find-oss)](https://skills.sh/aboalrejal-ai/find-oss)
+
 **From need → vetted repo → working install → first success. Open-source only.**
 
 An agent skill that finds, vets, installs, and teaches free open-source tools and AI projects from

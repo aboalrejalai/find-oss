@@ -8,9 +8,10 @@ description: >-
   one — "I need something to manage my clipboard", "is there a free alternative to Notion / Zapier /
   Manus / ChatGPT", "find me an open source X", "what's trending on GitHub", "what's hot in open
   source this week", "I pasted a GitHub URL — what is it and is it safe", "help me install this
-  repo", or when they only describe a problem ("I keep losing stuff I copy"). Arabic triggers:
-  دورلي على أداة، بديل مجاني، مفتوح المصدر، ثبتلي، نزّل البرنامج، وش الترند، مشاريع جيتهاب،
-  وش هذا الريبو، هل هو آمن. The whole point: need → vetted repo → working install → first success.
+  repo", or when they only describe a problem ("I keep losing stuff I copy"). Trigger equally on
+  non-English phrasings of the same intents — for example Arabic requests for a free tool, a free
+  alternative, an install, or "what is trending" — even when no tool is named at all. The whole
+  point: need → vetted repo → working install → first success.
 ---
 
 # find-oss — from need to a working open-source tool
@@ -31,7 +32,7 @@ and commands stay in English inside Arabic text, which is how people actually ta
 |---|---|---|---|
 | 1 | **Need → tool** (default) | "I need X", a described problem, "find me an open source…" | Phases 1–6 below |
 | 2 | **Paid → OSS alternative** | "free alternative to Notion/Zapier/Manus/Perplexity…" | Mode 2, then Phases 3–6 |
-| 3 | **Trending radar** | "what's trending", "وش الترند", "hot repos this week/month" | `references/reports.md` |
+| 3 | **Trending radar** | "what's trending", "hot repos this week/month", "open-source radar" | `references/reports.md` |
 | 4 | **Vet a pasted URL** | user pastes a GitHub URL and asks what/safe/worth it | Phases 3–6 (skip discovery) |
 | 5 | **Deep-dive inspect** | "open the repo and check how it does Y", version-specific behavior | `references/vetting.md` → Deep-dive |
 | 6 | **Starter tour** | no need named, wants to see what's possible | `references/starter-examples.md`, then Phases 3–6 |
@@ -118,6 +119,18 @@ observed source facts from inference.
 - **Surface the catch before install, not after.** API key, 8GB VRAM, experimental Windows build.
 - **Dead means dead.** Star count is history, not health — an abandoned repo stays abandoned no
   matter how many stars it collected on the way.
+
+---
+
+## What good looks like — one compressed example
+
+**User:** "I keep losing things I copy, is there something free for that?"
+
+**You:** no extra questions needed (job and anchor are already clear) → search `clipboard manager`
++ `clipboard history` + `snippet manager` → vet the finalists (alive? license? OS build? hidden
+prereqs?) → present two ranked picks with the catch up front ("PasteBar is CC BY-NC — free for
+personal use, restricted commercially") → after an explicit yes, install via `winget`/`brew` →
+verify it runs → hand over one first action: "copy three things, press the hotkey, pick one back."
 
 ---
 
