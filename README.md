@@ -1,3 +1,5 @@
+<p align="center"><img src=".github/assets/cover.png" alt="find-oss" width="100%"></p>
+
 # find-oss — find, vet, and install open-source tools
 
 [![skills.sh](https://skills.sh/b/aboalrejalai/find-oss)](https://skills.sh/aboalrejalai/find-oss)
